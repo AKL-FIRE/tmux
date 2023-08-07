@@ -9,11 +9,7 @@ sudo /usr/bin/tic -xe tmux-256color terminfo.src
 
 ### 在.zshrc或者或者.bashrc中添加
 ```shell
-if [[ $TMUX != "" ]] then
-    export TERM="tmux-256color"
-else
-    export TERM="xterm-256color"
-fi
+export TERM=screen-256color
 ```
 
 #Tmux的配置和使用
